@@ -17,4 +17,9 @@ cat <<EOF > /etc/hostname
 centos8_build
 EOF
 
+cat <<EOF >> /etc/hosts
+192.168.1.216 centos8_build
+192.168.1.217 centos8_0 puppet
+EOF
+
 systemctl restart NetworkManager.service
