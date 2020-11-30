@@ -21,3 +21,6 @@ sudo systemctl start puppetserver
 
 sudo systemctl enable puppetserver
 
+sudo sudo rpm -Uvh https://yum.puppet.com/puppet-tools-release-el-8.noarch.rpm
+sudo yum install pdk
+
