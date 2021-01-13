@@ -1,3 +1,4 @@
+# update crashkernel=auto to crashkernel=no in /boot/grub2/grub.cfg  to recover some memory
 useradd dave
 usermod -G wheel dave
 ssh-keygen  # for user "dave"
